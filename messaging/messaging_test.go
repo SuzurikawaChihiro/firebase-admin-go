@@ -991,6 +991,7 @@ func TestNoProjectID(t *testing.T) {
 }
 
 func TestJSONUnmarshal(t *testing.T) {
+
 	for _, tc := range validMessages {
 		if tc.name == "PrefixedTopicOnly" {
 			continue
