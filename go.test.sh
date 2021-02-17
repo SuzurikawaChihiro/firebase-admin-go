@@ -4,7 +4,7 @@ set -e
 echo "mode: set" > cover.out
 echo "" > coverage.txt
 
-pkg_array=("usecase" "repository" "controller")
+pkg_array=("messaging")
 
 test_flag=false
 
