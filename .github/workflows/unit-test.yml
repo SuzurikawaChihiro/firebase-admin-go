@@ -1,5 +1,9 @@
 name: unit test
 on: pull_request
+
+env:
+  GOOGLE_APPLICATION_CREDENTIALS: ${{secrets.GOOGLE_APPLICATION_CREDENTIALS}}
+
 jobs:
   build:
     name: unit-test

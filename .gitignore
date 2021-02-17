@@ -5,3 +5,4 @@ testdata/integration_*
 
 cover.out
 coverage.txt
+.env
