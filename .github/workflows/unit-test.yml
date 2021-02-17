@@ -2,7 +2,7 @@ name: unit test
 on: pull_request
 
 env:
-  GOOGLE_APPLICATION_CREDENTIALS: ${{secrets.GOOGLE_APPLICATION_CREDENTIALS}}
+  GOOGLE_APPLICATION_CREDENTIALS: ${{secrets.SA_KEY_DEV}}
 
 jobs:
   build:
