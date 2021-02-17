@@ -2,3 +2,6 @@ testdata/integration_*
 .vscode/*
 *~
 \#*\#
+
+cover.out
+coverage.txt
