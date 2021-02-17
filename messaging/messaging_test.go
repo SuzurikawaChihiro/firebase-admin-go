@@ -986,6 +986,7 @@ var invalidMessages = []struct {
 func TestNoProjectID(t *testing.T) {
 
 	client, err := NewClient(context.Background(), &internal.MessagingConfig{})
+
 	if client != nil || err == nil {
 		t.Errorf("NewClient() = (%v, %v); want = (nil, error)", client, err)
 	}
